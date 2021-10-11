@@ -3,13 +3,13 @@ var numeroUsuario = Number(prompt("Numero"));
 
 
 function ComprobarPrimo(numeroUsuario){
-    if(numeroUsuario / numeroUsuario ==1 && numeroUsuario/1 ==0){  
+    if(numeroUsuario / 2 ==0 && numeroUsuario/1==0){  
          
-        return true;
+        return false;
     }
     else{
         
-        return false;
+        return true;
     }
 }
 
